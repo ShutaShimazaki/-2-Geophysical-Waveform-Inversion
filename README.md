@@ -4,7 +4,7 @@ Develop physics-guided machine learning models to solve full-waveform inversion 
 ## Basics
 ### Overview
 このコンペティションでは、地震波形データから速度マップなどの**地下物性**を推定することが求められます。
-このプロセスは\*\*全波形インバージョン（Full Waveform Inversion, FWI）\*\*として知られており、より高精度かつ効率的な地震解析を可能にし、さまざまな分野での応用価値を高めることが期待されています。
+このプロセスは**全波形インバージョン（Full Waveform Inversion, FWI)**として知られており、より高精度かつ効率的な地震解析を可能にし、さまざまな分野での応用価値を高めることが期待されています。
 
 
 ### Description
