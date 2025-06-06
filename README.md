@@ -16,7 +16,79 @@ Develop physics-guided machine learning models to solve full-waveform inversion 
 
 このコンペティションでは、物理学と機械学習の両者を融合させてFWIを進化させることが求められます。この課題に成功すれば、地下資源探査だけでなく、医療診断や非破壊検査など、精密なイメージングが求められるさまざまな分野に革新をもたらす可能性があります。
 
-### train.csv 
+### train_samples
+<pre>
+  ```
+/kaggle/input/waveform-inversion
+├── sample_submission.csv
+├── test
+└── train_samples
+    ├── CurveFault_A/
+    │   ├── seis2_1_0.npy
+    │   ├── seis4_1_0.npy
+    │   ├── vel2_1_0.npy
+    │   └── vel4_1_0.npy
+    ├── CurveFault_B/
+    │   ├── seis6_1_0.npy
+    │   ├── seis8_1_0.npy
+    │   ├── vel6_1_0.npy
+    │   └── vel8_1_0.npy
+    ├── CurveVel_A/
+    │   ├── data/
+    │   │   ├── data1.npy
+    │   │   └── data2.npy
+    │   └── model/
+    │       ├── model1.npy
+    │       └── model2.npy
+    ├── CurveVel_B/
+    │   ├── data/
+    │   │   ├── data1.npy
+    │   │   └── data2.npy
+    │   └── model/
+    │       ├── model1.npy
+    │       └── model2.npy
+    ├── FlatFault_A/
+    │   ├── seis2_1_0.npy
+    │   ├── seis4_1_0.npy
+    │   ├── vel2_1_0.npy
+    │   └── vel4_1_0.npy
+    ├── FlatFault_B/
+    │   ├── seis6_1_0.npy
+    │   ├── seis8_1_0.npy
+    │   ├── vel6_1_0.npy
+    │   └── vel8_1_0.npy
+    ├── FlatVel_A/
+    │   ├── data/
+    │   │   ├── data1.npy
+    │   │   └── data2.npy
+    │   └── model/
+    │       ├── model1.npy
+    │       └── model2.npy
+    ├── FlatVel_B/
+    │   ├── data/
+    │   │   ├── data1.npy
+    │   │   └── data2.npy
+    │   └── model/
+    │       ├── model1.npy
+    │       └── model2.npy
+    ├── Style_A/
+    │   ├── data/
+    │   │   ├── data1.npy
+    │   │   └── data2.npy
+    │   └── model/
+    │       ├── model1.npy
+    │       └── model2.npy
+    └── Style_B/
+        ├── data/
+        │   ├── data1.npy
+        │   └── data2.npy
+        └── model/
+            ├── model1.npy
+            └── model2.npy
+
+```
+</pre>
+
 |name|Explanation|
 |----|----|
 |rating|録音の質を表す(A,B,C,D,Eの5段階)|
