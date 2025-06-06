@@ -18,7 +18,6 @@ Develop physics-guided machine learning models to solve full-waveform inversion 
 
 ### train_samples
 <pre>
-  ```
 /kaggle/input/waveform-inversion
 ├── sample_submission.csv
 ├── test
@@ -85,8 +84,6 @@ Develop physics-guided machine learning models to solve full-waveform inversion 
         └── model/
             ├── model1.npy
             └── model2.npy
-
-```
 </pre>
 
 |name|Explanation|
@@ -108,4 +105,4 @@ Develop physics-guided machine learning models to solve full-waveform inversion 
 ## Log
 ### 20250606(Fri.)
 - join!!
-- 
+- [チュートリアル]をやった(https://www.kaggle.com/code/suirikais/waveform-inversion-kaggle-competition-tutorial)
