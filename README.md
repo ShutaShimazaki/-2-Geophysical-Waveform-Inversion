@@ -16,16 +16,14 @@ Develop physics-guided machine learning models to solve full-waveform inversion 
 
 このコンペティションでは、物理学と機械学習の両者を融合させてFWIを進化させることが求められます。この課題に成功すれば、地下資源探査だけでなく、医療診断や非破壊検査など、精密なイメージングが求められるさまざまな分野に革新をもたらす可能性があります。
 
-## Dataset
-|Name|Detail|Ref|
-|---|---|---|
-
-### train.csv colomn infomaiton
+### train.csv 
 |name|Explanation|
 |----|----|
 |rating|録音の質を表す(A,B,C,D,Eの5段階)|
 |playback_sed|...|
 |ebird_code|名前。nunique=264|
+
+### submission.csv 
 
 ## Features
 |Name|shape (feat only)|size(MB)|Detail|
